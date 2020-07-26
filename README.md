@@ -48,4 +48,4 @@ BigDecimal result = parser.parse(formula);
 System.out.println(result.toString());
 ```
 
-**结果：9.00**
+**结果**：9.00
