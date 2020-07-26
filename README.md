@@ -38,9 +38,14 @@
 
 ## 使用方法
 
+```
 String formula = "  [[20*2]+[[1-3] *2] ] / 4 ";
+
 Parser parser = new ParserImpl();
+
 BigDecimal result = parser.parse(formula);
+
 System.out.println(result.toString());
+```
 
 **结果：9.00**
